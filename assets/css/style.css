@@ -1967,13 +1967,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .about-text-simple {
-    color: var(--light-gray);
+    color: var(--light-gray) !important;
     line-height: 1.6;
     font-size: var(--fs-6);
+    margin-bottom: 30px;
   }
 
   .about-text-simple p {
     margin-bottom: 15px;
+    color: var(--light-gray) !important;
   }
 
   .about-text-simple p:last-child {
@@ -1993,6 +1995,20 @@ textarea.form-input::-webkit-resizer { display: none; }
     .timeline-sections-grid {
       grid-template-columns: 1fr;
       gap: 30px;
+    }
+    
+    /* Fix about section mobile styling */
+    .about-section-full {
+      margin-bottom: 30px;
+    }
+    
+    .about-text-simple {
+      color: var(--light-gray) !important;
+      margin-bottom: 25px;
+    }
+    
+    .about-text-simple p {
+      color: var(--light-gray) !important;
     }
   }
 
