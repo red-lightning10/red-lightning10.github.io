@@ -1967,7 +1967,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
   .about-text-simple {
-    color: var(--light-gray) !important;
+    color: var(--light-gray);
     line-height: 1.6;
     font-size: var(--fs-6);
     margin-bottom: 30px;
@@ -1975,7 +1975,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .about-text-simple p {
     margin-bottom: 15px;
-    color: var(--light-gray) !important;
+    color: var(--light-gray);
   }
 
   .about-text-simple p:last-child {
@@ -2744,10 +2744,15 @@ textarea.form-input::-webkit-resizer { display: none; }
   
   .about-text-simple {
     color: var(--light-gray) !important;
-    margin-bottom: 25px;
+    margin-bottom: 25px !important;
   }
   
   .about-text-simple p {
     color: var(--light-gray) !important;
+    margin-bottom: 15px !important;
+  }
+  
+  .about-text-simple p:last-child {
+    margin-bottom: 0 !important;
   }
 }
