@@ -1996,20 +1996,6 @@ textarea.form-input::-webkit-resizer { display: none; }
       grid-template-columns: 1fr;
       gap: 30px;
     }
-    
-    /* Fix about section mobile styling */
-    .about-section-full {
-      margin-bottom: 30px;
-    }
-    
-    .about-text-simple {
-      color: var(--light-gray) !important;
-      margin-bottom: 25px;
-    }
-    
-    .about-text-simple p {
-      color: var(--light-gray) !important;
-    }
   }
 
   .content-category {
@@ -2749,5 +2735,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 @media (max-width: 768px) {
   .sidebar-toggle-btn {
     display: block;
+  }
+  
+  /* Fix about section mobile styling */
+  .about-section-full {
+    margin-bottom: 30px;
+  }
+  
+  .about-text-simple {
+    color: var(--light-gray) !important;
+    margin-bottom: 25px;
+  }
+  
+  .about-text-simple p {
+    color: var(--light-gray) !important;
   }
 }
