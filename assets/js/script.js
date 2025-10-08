@@ -198,3 +198,14 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // Initialize skills section visibility on page load
 document.addEventListener("DOMContentLoaded", initSkillsSection);
+
+// Toggle skills function for the skills button
+function toggleSkills() {
+  const skillsSection = document.querySelector('.skills-section');
+  const skillsToggleIcon = document.querySelector('.skills-toggle-icon');
+  
+  if (skillsSection && skillsToggleIcon) {
+    skillsSection.classList.toggle('active');
+    skillsToggleIcon.classList.toggle('active');
+  }
+}
