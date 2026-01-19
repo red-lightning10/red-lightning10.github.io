@@ -2548,7 +2548,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-inline: auto;
     display: flex;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 25px;
   }
 
