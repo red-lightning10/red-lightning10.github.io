@@ -568,6 +568,32 @@
 
             <li class="project-item-card active" data-filter-item data-category="planning learning perception">
               <div class="project-content">
+                <h3 class="project-title">Task Planning and Execution for Block Rearrangement</h3>
+                <p class="project-summary">As an attempt to create a modular system for our lab to implement task planning
+                  to rearrange real world scenes (table-top), I architected this ROS2-based pick-and-place system that can 
+                  detect objects in the scene (instance segmentation) and plan a sequence of pick-and-place operations to rearrange them 
+                  according to the desired arrangement. We heavily leverage MoveIt for trajectory planning and execution for kinematic chains
+                   and ROS2 UR driver for control of the UR10 robot arm. Any task planning pipeline can be used to come up 
+                   with a sequence of actions for the given grounded predicates from the detections in the scene.
+                </p>
+
+                <figure class="project-thumbnail">
+                  <img src="./assets/images/task-planning.gif" alt="Task planning and execution demo" loading="lazy">
+                </figure>
+
+                <div class="project-meta">
+                  <div class="project-tags">
+                  </div>
+                  <div class="project-links">
+                    <a href="https://github.com/red-lightning10/block-rearrangement" class="project-link">View Details</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+
+            <li class="project-item-card active" data-filter-item data-category="planning learning perception">
+              <div class="project-content">
                 <h3 class="project-title">Benchmarking Antipodal Grasping Pipelines for Grocery Store Applications</h3>
                 <p class="project-summary">Application of manipulation in grocery store applications typically involve 
                   accessing items from shelves that pose constraints on approach angle of grasps. 
